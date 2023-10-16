@@ -1,0 +1,11 @@
+apiVersion: gcp.platform.upbound.io/v1alpha1
+kind: XWorkloadIdentity
+metadata:
+  name: gcp-workload-identity
+spec:
+  parameters:
+    id: gcp-gke-workload-identity
+    dnsProject: official-provider-testing
+    serviceAccount:
+      name: external-dns
+      namespace: external-dns

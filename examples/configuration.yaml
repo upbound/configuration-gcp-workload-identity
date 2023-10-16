@@ -1,0 +1,6 @@
+apiVersion: pkg.crossplane.io/v1
+kind: Configuration
+metadata:
+  name: cofiguration-gcp-workload-identity
+spec:
+  package: xpkg.upbound.io/upbound/configuration-workload-identity:v0.15.0

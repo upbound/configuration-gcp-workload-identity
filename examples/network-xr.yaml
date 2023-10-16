@@ -1,0 +1,8 @@
+apiVersion: gcp.platform.upbound.io/v1alpha1
+kind: XNetwork
+metadata:
+  name: ref-gcp-network
+spec:
+  parameters:
+    id: gcp-gke-workload-identity
+    region: us-west2
