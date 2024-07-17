@@ -3,4 +3,4 @@ kind: Configuration
 metadata:
   name: cofiguration-gcp-workload-identity
 spec:
-  package: xpkg.upbound.io/upbound/configuration-workload-identity:v0.15.0
+  package: xpkg.upbound.io/upbound/configuration-workload-identity:v0.1.0
